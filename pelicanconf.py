@@ -7,7 +7,8 @@ SITENAME = u"JPR's Tech Notes"
 SITEURL = ''
 
 PATH = 'content'
-
+PLUGIN_PATHS = ["./plugins"]
+PLUGINS = ["render_math"]
 TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'

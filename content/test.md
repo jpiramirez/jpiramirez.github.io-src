@@ -8,3 +8,5 @@ Authors: Juan-Pablo Ramirez
 Summary: Starting engines
 
 Just an inaugural post to get this notes started.
+
+$$e^{i \pi} + 1 = 0$$
