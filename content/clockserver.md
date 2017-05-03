@@ -80,5 +80,5 @@ Here is an example of a clock server.
 	return 0;
 	}
 	
-In the code two parameters are read: `timefactor` is the speed-up or slow-down of the simulated clock signal with respect to "wall" time, and `tickspersec` is the frequency with which the simulated clock signal will be publish (relative to wall time). This last parameter is important, because the nodes that use the `/clock` signal may need specific frequencies depending on the application. This is equivalent to the `real_time_update_rate` from Gazebo world files.
+In the code two parameters are read: `timefactor` is the speed-up or slow-down of the simulated clock signal with respect to "wall" time, and `tickspersec` is the frequency with which the simulated clock signal will be published (relative to wall time). This last parameter is important, because the nodes that use the `/clock` signal may need specific frequencies depending on the application. This is equivalent to the `real_time_update_rate` from Gazebo world files.
 
